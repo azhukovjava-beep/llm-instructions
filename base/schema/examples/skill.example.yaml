@@ -1,0 +1,23 @@
+﻿id: skill.code-review
+kind: skill
+title: Code Review Skill
+summary: Reusable review workflow that can be adapted across providers.
+body: |
+  Inspect changes for correctness, regressions, risks and missing tests.
+scope: task
+load-mode: on-demand
+targets:
+  - claude
+  - codex
+  - cursor
+provider-bindings:
+  claude:
+    target: .claude/skills/code-review/SKILL.md
+  codex:
+    target: .agents/skills/code-review/SKILL.md
+  cursor:
+    target: .cursor/rules/code-review-skill.mdc
+source-links: []
+exceptions:
+  - cursor-has-no-native-skill-artifact
+last-reviewed: 2026-03-15

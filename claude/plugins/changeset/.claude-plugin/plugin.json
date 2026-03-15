@@ -1,0 +1,5 @@
+{
+  "name": "changeset",
+  "version": "1.0.3",
+  "description": "Create changeset files for version tracking. Analyzes git changes, determines version type and scope automatically."
+}

@@ -1,0 +1,26 @@
+{
+  "name": "kaiten-marketplace",
+  "owner": {
+    "name": "KaitenDev"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for Kaiten projects"
+  },
+  "plugins": [
+    {
+      "name": "updating-kaiten-lib",
+      "description": "Update kaiten-lib git dependency in any project with package.json",
+      "source": "./plugins/updating-kaiten-lib"
+    },
+    {
+      "name": "changeset",
+      "description": "Create changeset files for version tracking. Analyzes git changes, determines version type and scope automatically.",
+      "source": "./plugins/changeset"
+    },
+    {
+      "name": "db-conventions",
+      "description": "PostgreSQL database conventions for Kaiten projects: naming, indexing, FK, SQL standards",
+      "source": "./plugins/db-conventions"
+    }
+  ]
+}
