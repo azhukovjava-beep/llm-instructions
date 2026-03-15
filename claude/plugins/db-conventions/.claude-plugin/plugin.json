@@ -1,0 +1,6 @@
+{
+  "name": "db-conventions",
+  "version": "1.0.0",
+  "description": "PostgreSQL database conventions for Kaiten projects: naming, indexing, FK, SQL standards",
+  "skills": "./skills/"
+}

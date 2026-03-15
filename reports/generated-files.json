@@ -1,0 +1,129 @@
+﻿[
+    {
+        "path":  "codex/AGENTS.md",
+        "provider":  "codex",
+        "kind":  "instruction-set",
+        "runtimeTarget":  "AGENTS.md"
+    },
+    {
+        "path":  "codex/skills/README.md",
+        "provider":  "codex",
+        "kind":  "supporting-doc",
+        "runtimeTarget":  ".agents/skills/README.md"
+    },
+    {
+        "path":  "codex/skills/code-review/SKILL.md",
+        "provider":  "codex",
+        "kind":  "skill",
+        "runtimeTarget":  ".agents/skills/code-review/SKILL.md"
+    },
+    {
+        "path":  "codex/skills/fullstack-developer/SKILL.md",
+        "provider":  "codex",
+        "kind":  "skill",
+        "runtimeTarget":  ".agents/skills/fullstack-developer/SKILL.md"
+    },
+    {
+        "path":  "cursor/AGENTS.md",
+        "provider":  "cursor",
+        "kind":  "instruction-set",
+        "runtimeTarget":  "AGENTS.md"
+    },
+    {
+        "path":  "cursor/rules/README.md",
+        "provider":  "cursor",
+        "kind":  "supporting-doc",
+        "runtimeTarget":  ".cursor/rules/README.md"
+    },
+    {
+        "path":  "cursor/rules/00-project-core.mdc",
+        "provider":  "cursor",
+        "kind":  "rule-set",
+        "runtimeTarget":  ".cursor/rules/00-project-core.mdc"
+    },
+    {
+        "path":  "cursor/rules/20-code-review.mdc",
+        "provider":  "cursor",
+        "kind":  "rule-set",
+        "runtimeTarget":  ".cursor/rules/20-code-review.mdc"
+    },
+    {
+        "path":  "cursor/rules/30-fullstack-development.mdc",
+        "provider":  "cursor",
+        "kind":  "rule-set",
+        "runtimeTarget":  ".cursor/rules/30-fullstack-development.mdc"
+    },
+    {
+        "path":  "claude/CLAUDE.md",
+        "provider":  "claude",
+        "kind":  "instruction-set",
+        "runtimeTarget":  "CLAUDE.md"
+    },
+    {
+        "path":  "claude/.claude/rules/README.md",
+        "provider":  "claude",
+        "kind":  "supporting-doc",
+        "runtimeTarget":  ".claude/rules/README.md"
+    },
+    {
+        "path":  "claude/.claude/rules/00-project-core.md",
+        "provider":  "claude",
+        "kind":  "rule-set",
+        "runtimeTarget":  ".claude/rules/00-project-core.md"
+    },
+    {
+        "path":  "claude/.claude/rules/10-code-review.md",
+        "provider":  "claude",
+        "kind":  "rule-set",
+        "runtimeTarget":  ".claude/rules/10-code-review.md"
+    },
+    {
+        "path":  "claude/.claude/skills/README.md",
+        "provider":  "claude",
+        "kind":  "supporting-doc",
+        "runtimeTarget":  ".claude/skills/README.md"
+    },
+    {
+        "path":  "claude/.claude/skills/code-review/SKILL.md",
+        "provider":  "claude",
+        "kind":  "skill",
+        "runtimeTarget":  ".claude/skills/code-review/SKILL.md"
+    },
+    {
+        "path":  "claude/.claude/skills/fullstack-developer/SKILL.md",
+        "provider":  "claude",
+        "kind":  "skill",
+        "runtimeTarget":  ".claude/skills/fullstack-developer/SKILL.md"
+    },
+    {
+        "path":  "claude/.claude/agents/README.md",
+        "provider":  "claude",
+        "kind":  "supporting-doc",
+        "runtimeTarget":  ".claude/agents/README.md"
+    },
+    {
+        "path":  "claude/.claude/agents/code-reviewer.md",
+        "provider":  "claude",
+        "kind":  "agent-profile",
+        "runtimeTarget":  ".claude/agents/code-reviewer.md"
+    },
+    {
+        "path":  "claude/.claude/agents/fullstack-developer.md",
+        "provider":  "claude",
+        "kind":  "agent-profile",
+        "runtimeTarget":  ".claude/agents/fullstack-developer.md"
+    },
+    {
+        "path":  "claude/guidelines/code-review.md",
+        "provider":  "claude",
+        "kind":  "mirrored-guideline",
+        "runtimeTarget":  "supporting-doc"
+    },
+    {
+        "path":  "claude/guidelines/development.md",
+        "provider":  "claude",
+        "kind":  "mirrored-guideline",
+        "runtimeTarget":  "supporting-doc"
+    }
+]
+

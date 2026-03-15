@@ -1,0 +1,22 @@
+﻿id: instruction.project-core
+kind: instruction-set
+title: Project Core Instructions
+summary: Shared repository-level instructions for all supported providers.
+body: |
+  Put the normalized instruction text here.
+scope: repository
+load-mode: always
+targets:
+  - claude
+  - codex
+  - cursor
+provider-bindings:
+  claude:
+    target: CLAUDE.md
+  codex:
+    target: AGENTS.md
+  cursor:
+    target: .cursor/rules/project-core.mdc
+source-links: []
+exceptions: []
+last-reviewed: 2026-03-15

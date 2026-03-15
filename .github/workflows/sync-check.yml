@@ -1,0 +1,17 @@
+﻿name: Sync Check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  validate-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate generated adapters
+        shell: pwsh
+        run: ./scripts/validate-sync.ps1

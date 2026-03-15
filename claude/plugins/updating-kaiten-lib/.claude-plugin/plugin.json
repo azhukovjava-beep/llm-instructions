@@ -1,0 +1,5 @@
+{
+  "name": "updating-kaiten-lib",
+  "version": "1.0.3",
+  "description": "Update kaiten-lib git dependency in any project with package.json"
+}
