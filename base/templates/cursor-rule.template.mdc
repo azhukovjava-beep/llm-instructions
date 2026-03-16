@@ -1,0 +1,9 @@
+﻿---
+description: Short description of when this rule should apply
+globs:
+alwaysApply: false
+---
+
+- Put the focused Cursor rule content here.
+- Keep it specific, actionable and scoped.
+- Reference extra files with `@file` when needed.
